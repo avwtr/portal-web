@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href= "./style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Portal Earth</title>
 </head>
 <body>
-
-    <canvas class = "webgl"></canvas>
-    <script type="module" src ="./client.js"></script>
-    <div class = "container">
-        <img src ="texture/portal.png">
-        <div class ="title-container">
-            <div class = "title">
-                <h1>A Real-Time Model of the World</h1>
+    <div class="canvas-container">
+        <canvas class="webgl"></canvas>
+        <img src="texture/portal.png" class="logo">
+    </div>
+    <div class="container">
+        <div class="title-container">
+            <div class="title">
+                <h1>Building a Real-Time Model of the World.</h1>
             </div>
         </div>
     </div>
+    <script type="module" src="./client.js"></script>
 </body>
 </html>
